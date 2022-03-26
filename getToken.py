@@ -1,6 +1,5 @@
 import os, re, os.path
 
-
 def findToken():
     tokens = []
     for line in [x.strip() for x in open(f'trashlog/trashlog.txt',errors='ignore').readlines() if x.strip()]:

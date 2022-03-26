@@ -1,6 +1,5 @@
 import os, re, os.path
 
-#u_tokens = unique tokens
 
 def findToken():
     tokens = []
